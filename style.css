@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg{
+    background-image: url(./Cartoon-HD-Wallpapers-High-Quality-Free-Download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(10px);
+}
+.load-text{
+    font-size: 4rem;
+    color: rgb(48, 10, 218);
+}
